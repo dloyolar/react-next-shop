@@ -1,0 +1,32 @@
+@use 'vars';
+
+.NotFound {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.NotFound-image {
+  max-width: 500px;
+  object-fit: cover;
+  width: auto;
+
+  @media (max-width: 640px) {
+    max-width: 320px;
+  }
+}
+
+.NotFound-text {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+
+  &:active {
+    color: var(--very-light-pink);
+  }
+}
