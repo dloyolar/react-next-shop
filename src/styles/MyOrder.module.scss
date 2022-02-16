@@ -3,6 +3,8 @@
 .MyOrder {
   width: 360px;
   padding: 24px;
+  height: 100vh;
+  z-index: 1000;
   box-sizing: border-box;
   position: absolute;
   right: 0;

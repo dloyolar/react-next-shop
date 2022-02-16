@@ -5,6 +5,7 @@ import arrow from '@icons/flechita.svg';
 
 import styles from '@styles/MyOrder.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const MyOrder = () => {
   const { state } = useContext(AppContext);
@@ -27,7 +28,9 @@ export const MyOrder = () => {
           </p>
           <p>${sumTotal()}</p>
         </div>
-        <button className={styles['primary-button']}>Checkout</button>
+        <Link href="/checkout" className={styles['primary-button']}>
+          Checkout
+        </Link>
       </div>
     </aside>
   );
