@@ -43,16 +43,24 @@ export const Header = () => {
             <acorn href="/">Clothes</acorn>
           </li>
           <li>
-            <a href="/">Electronics</a>
+            <Link href="/">
+              <a>Electronics</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Furnitures</a>
+            <Link href="/">
+              <a>Furnitures</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Toys</a>
+            <Link href="/">
+              <a>Toys</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Others</a>
+            <Link href="/">
+              <a>Others</a>
+            </Link>
           </li>
         </ul>
       </div>
