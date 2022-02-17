@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useContext, useState } from 'react';
 
 import menu from '@icons/icon_menu.svg';
@@ -27,7 +28,7 @@ export const Header = () => {
 
   return (
     <nav className={styles.Nav}>
-      <Image src={menu} alt="menu" className={styles.menu} />
+      <img src={menu.src} alt="menu" className={styles.menu} />
       <div className={styles['navbar-left']}>
         <Link href="/" passHref>
           <a>
