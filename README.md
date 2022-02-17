@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## BIG NOTE 📝 this repo is only to save and study an app migrated from React to Nextjs dont expect to see a finished app 🤔
+
 ## Getting Started
 
 First, run the development server:
