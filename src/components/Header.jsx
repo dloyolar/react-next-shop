@@ -30,7 +30,9 @@ export const Header = () => {
       <Image src={menu} alt="menu" className={styles.menu} />
       <div className={styles['navbar-left']}>
         <Link href="/" passHref>
-          <Image src={logo} alt="logo" className={styles['nav-logo']} />
+          <a>
+            <Image src={logo} alt="logo" className={styles['nav-logo']} />
+          </a>
         </Link>
 
         <ul>
